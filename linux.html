@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linuxの基本</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Linux入門ガイド</h1>
+        <p>Linuxの初歩的な使い方を学ぶためのページです。</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#basic-commands">基本コマンド</a></li>
+            <li><a href="#file-management">ファイル管理</a></li>
+            <li><a href="#permissions">権限管理</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="basic-commands">
+            <h2>基本コマンド</h2>
+            <p>Linuxの基本コマンドには以下のようなものがあります。</p>
+            <ul>
+                <li><strong>ls</strong> - ディレクトリの内容を一覧表示</li>
+                <li><strong>cd</strong> - ディレクトリを移動</li>
+                <li><strong>pwd</strong> - 現在のディレクトリを表示</li>
+                <li><strong>man</strong> - コマンドのマニュアルを表示</li>
+            </ul>
+        </section>
+
+        <section id="file-management">
+            <h2>ファイル管理</h2>
+            <p>Linuxでのファイル管理に使用するコマンドの例です。</p>
+            <ul>
+                <li><strong>cp</strong> - ファイルをコピー</li>
+                <li><strong>mv</strong> - ファイルを移動または名前を変更</li>
+                <li><strong>rm</strong> - ファイルを削除</li>
+                <li><strong>touch</strong> - 新しいファイルを作成</li>
+            </ul>
+        </section>
+
+        <section id="permissions">
+            <h2>権限管理</h2>
+            <p>Linuxのファイル権限に関する基本的なコマンドの例です。</p>
+            <ul>
+                <li><strong>chmod</strong> - ファイルの権限を変更</li>
+                <li><strong>chown</strong> - ファイルの所有者を変更</li>
+                <li><strong>chgrp</strong> - ファイルのグループを変更</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Linux入門ガイド</p>
+    </footer>
+</body>
+</html>
